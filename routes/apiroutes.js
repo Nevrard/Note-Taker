@@ -53,6 +53,14 @@ app.delete('/api/notes/:note',(req,res) => {
                 }
 
             }
+            let data = JSON.stringify(notesData)
+
+                  fs.writeFile('./db/db.json',data,(err) =>{
+                  if (err) throw err;
+                  console.log("Note added successfuly")
+              
+            })
+            
             res.json(notesData)
       })
 
