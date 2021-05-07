@@ -14,9 +14,9 @@
 
 This application is built to help user to take notes and stores them  in the way the user can access them anytime.
 User can create a new note by specifying a Title , type the content.The save icon will be automaticaly displayed on the top right coner and then user can Save the note.
-All saved notes appear at the left side 
+All saved notes titles appear at the left side 
 
-User can edit any existing notes on the left side ,by clicking on it then the content and title are loaded in the editing area where after making the changes can click on save icon to apply the changes.
+User can display content any existing notes on the left side ,by clicking on it then the content and title are loaded in the editing area where after user can see all details of the notes.
 
 user has also option to delete an existing note by click on the delete icon shown in front of each notes.
 
